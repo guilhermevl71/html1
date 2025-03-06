@@ -5,8 +5,10 @@
 }
 
 body {
+    height: 100vh;
     background-color: black;
     color: #F6F6F6;
+    box-sizing: border-box;  /* Nada ira sair do body(tela)*/
 }
 
 .destaque-titulo {
