@@ -7,7 +7,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a href="index.html" class="cabecalho__menu__links">Home</a>
+            <a href="sobre_mim.html" class="cabecalho__menu__links">Sobre mim</a>
+        </nav>
+    </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
             <h1 class="apresentacao__conteudo__titulo" title="teste1">
@@ -17,14 +22,25 @@
                 Olá! Sou Joana Santos, desenvolvedora Front-end com especialidade em React, HTML e CSS. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?
             </p>
             <div class="apresentacao__conteudo__links">
-                <h4 class="apresentacao__conteudo__subtitulo">Acesse minhas redes:</h4>
-                    <a class="botao_link" href="https://instagram.com/guilherme.vlx" target="_blank" title="Vá para meu instagram">Instagram</a>
-                    <a class="botao_link" href="https://github.com/guilhermevl71" target="_blank" title="Vá para meu github">Github</a>
-                    <a class="botao_link" href="https://github.com/guilhermevl71" target="_blank" title="Vá para meu twitch">Twitch</a>
+                <h4 class="apresentacao__conteudo__subtitulo">Acesse minhas redes:</h4> 
+                    <a class="botao_link" href="https://github.com/guilhermevl71" target="_blank" title="Vá para meu github">
+                        <img class="botao__icon" src="imagens/Logo Github.png">
+                        Github
+                    </a>
+                    <a class="botao_link" href="https://instagram.com/guilherme.vlx" target="_blank" title="Vá para meu linkedin">
+                        <img class="botao__icon" src="imagens/Logo linkedin.png">
+                        Linkedin
+                    </a>
+                    <a class="botao_link" href="https://github.com/guilhermevl71" target="_blank" title="Vá para meu twitch">
+                        <img class="botao__icon" src="imagens/Logo Twitch.png">
+                        Twitch
+                    </a>
             </div>
         </section>
         <img src="imagens/teste.png" alt="Foto da joana trabalhando">
     </main>
-    <footer></footer>
+    <footer class="rodape">
+        <p class="rodape__paragrafo">Desenvolvido por Guilherme.</p>
+    </footer>
 </body>
 </html>
